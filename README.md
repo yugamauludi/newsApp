@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+# vuejsnews
+News portal using vue technologies .js and css. This project is a simple social news network. This app for learning and the tech test. please give me a feedback. I will be happy if you find errors in the code.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Used technology Vue.js, Vuex, VueRouter, SCSS, ckEditor
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Screenshots
+
+<img width="600" src="https://github.com/yugamauludi/newsApp/blob/main/src/assets/hompage.png">
+
+## Getting up and Running
+
+``` bash
+# Install the dependencies
+npm install
+
+# Serve with hot reload
+npm run dev
+
+```

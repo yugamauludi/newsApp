@@ -73,13 +73,13 @@
     align-items: center;
     box-sizing: border-box;
     padding: 10%;
+    margin-top: 60px;
   }
 
   .content {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    margin-top: 20px;
     justify-content: center;
   }
 
@@ -118,6 +118,7 @@
 
   .edit-button {
     margin-top: 10px;
+    margin-bottom: 60px;
   }
 
   .edit-button button {

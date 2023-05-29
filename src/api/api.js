@@ -5,10 +5,10 @@ const api = axios.create({
 });
 
 export default {
-  getNews() {
-    return api.get('/everything?q=esports&apiKey=40b6016c78a1479a84e6001133e388e4');
+  async getNews() {
+    return await api.get('/everything?q=esports&apiKey=40b6016c78a1479a84e6001133e388e4');
   },
-  getNewsDetail(slug) {
-    return api.get(`/news/${slug}`);
+  async getNewsDetail(slug) {
+    return await api.get(`/news/${slug}`);
   }
 };
